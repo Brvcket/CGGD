@@ -12,7 +12,7 @@ int main(int argc, char** argv)
 
 		renderer->init();
 
-		for (int i = 0; i < 50; i++) {
+		for (int i = 0; i < 10; i++) {
 			renderer->render();
 		}
 
