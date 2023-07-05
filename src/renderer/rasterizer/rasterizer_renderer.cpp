@@ -63,9 +63,6 @@ void cg::renderer::rasterization_renderer::render()
 	std::cout << "Rasterization took: " << duration.count() << " ms\n";
 
 	cg::utils::save_resource(*render_target, settings->result_path);
-
-	// TODO Lab: 1.04 Implement `vertex_shader` lambda for the instance of `cg::renderer::rasterizer`
-	// TODO Lab: 1.05 Implement `pixel_shader` lambda for the instance of `cg::renderer::rasterizer`
 }
 
 void cg::renderer::rasterization_renderer::destroy() {}
